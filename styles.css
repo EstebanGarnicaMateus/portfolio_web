@@ -4,27 +4,31 @@ body {
   background-color: #f6f6f6;
   color: #454545;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
+
 .main-container {
   height: 100vh;
   display: grid;
   text-align: center;
   justify-content: center;
-  align-items: end;
+  align-items: center; /* Ajustado para centrar verticalmente */
+  gap: 10px; /* Espaciado entre las dos secciones */
 }
-.intro{
-  width: auto;
-  font-size: x-small;
-  color: #454545;
+
+.intro {
+  margin-bottom: none; /* Ajusta el margen inferior del texto */
 }
-.buttons__intro__{
+
+.buttons__intro__ {
   display: flex;
   text-align: center;
   justify-content: center;
-  align-items: top;
+  align-items: center; /* Ajustado para centrar horizontalmente */
 }
+
 .btn {
   margin: 10px;
   padding: 8px 16px;
@@ -32,7 +36,6 @@ body {
   color: #454545;
   font-synthesis: weight;
   border: none;
-  align-items: top;
   cursor: pointer;
 }
 
